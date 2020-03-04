@@ -5,10 +5,10 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="DIY Keyboard Construction">
+  <meta name="description" content="Tutorial">
   <meta name="author" content="MechanicalKeys">
 
-  <title>Mechanical Keys Main Page!</title>
+  <title>Mechanical Keys Tutorial</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,19 +38,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#About">About</a>
+            <a class="nav-link js-scroll-trigger" href="#materials">Materials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#Products">Products</a>
+            <a class="nav-link js-scroll-trigger" href="#case">Case Options</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#tutorials">Tutorials</a>
+            <a class="nav-link js-scroll-trigger" href="#soldering">Soldering</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Our Team</a>
+            <a class="nav-link js-scroll-trigger" href="#wiring">Wiring</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#links">Useful Links</a>
+            <a class="nav-link js-scroll-trigger" href="#teensy">Teensy Programming</a>
           </li>
         </ul>
       </div>
@@ -61,50 +61,143 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Mechanical Keys</div>
-        <div class="intro-heading text-uppercase">DIY Keyboard Construction</div>
+        <div class="intro-lead-in">Tutorial</div>
+        <div class="intro-heading text-uppercase">Complete Guide to Building A hand soldered keyboard</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#About">Tell Me More</a>
       </div>
     </div>
   </header>
 
-  <!-- About -->
-  <section class="page-section" id="About">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">Services We Provide</h3>
+  <!-- Materials -->
+    <section class="page-section" id="materials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Materials</h2>
+                    <h3 class="section-subheading text-muted">Acquire the following:</h3>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <h4 class="service-heading">1. Diodes</h4>
+            </div>
+            <p class="text-muted">1N4148 diodes (one for each switch)</p> 
+            <div class="row text-center">
+              <h4 class="service-heading">2. Switches</h4>
+            </div>
+            <p class="text-muted">Many switch types available, choose based off of feel/purpose/sound</p> 
+            <a href="https://www.dygma.com/mechanical-switches/the-ultimate-guide-to-mechanical-keyboard-switches-for-2019/">Ultimate Guide to Mechanical Switches</a>
+            <div class="row text-center">
+              <h4 class="service-heading">3. Keycaps</h4>
+            </div>
+            <p class="text-muted">Choose based off of aesthetics, make sure the set you're buying contains enough keys </p> 
+            <div class="row text-center">
+              <h4 class="service-heading">4. Stabilizers </h4>
+            </div>
+            <p class="text-muted">Two types of stabilizers currently exist; Costar and Cherry MX. All keyboards sold in my shop (except Clueboard 66%) use costar stabilizers.</p> 
+            <div class="row text-center">
+              <h4 class="service-heading">5. Micro-Controller</h4>
+            </div>
+            <p class="text-muted">Two types of Micro-Controllers are common; Teensy 2.0 and Teensy++ 2.0. The Teensy 2.0 will work for all keyboard types except full size and tkl. The larger keyboards will require a Teensy++ 2.0.</p> 
+            <div class="row text-center">
+              <h4 class="service-heading">6. Nuts and Bolts</h4>
+            </div>
+            <p class="text-muted">All keyboards (except clueboard) require 3M x 8mm hex screws. Amount is dependent on keyboard, but will at most be 24. </p> 
+            <div class="row text-center">
+              <h4 class="service-heading">7. Optional: Soldering Iron</h4>
+            </div>
+            <p class="text-muted">Quality of soldering iron quality does not matter, they all work well in the right hands. Just make sure its the "pencil" style of iron, and not the "gun" style. The pencil style is for soldering electronics, the gun style is for scorching designs in wood.</p> 
+            <div class="row text-center">
+              <h4 class="service-heading">8. Optional: Solder</h4>
+            </div>
+            <p class="text-muted">60-40 rosin core solder works best</p>
+            <div class="row text-center">
+              <h4 class="service-heading">9. Optional: Solder Sucker</h4>
+            </div>
+            <p class="text-muted">Again, quality does not matter too much</p>
+            <div class="row text-center">
+              <h4 class="service-heading">Materials Can Be Purchased From the Following Sites:</h4>
+            </div>
+            <div>
+              <a href="https://www.amazon.com/">Amazon</a>
+            </div>
+            <div>
+              <a href="https://www.aliexpress.com/">AliExpress</a>
+            </div>
+            <div>
+              <a href="https://www.banggood.com/">Bangood</a>
+            </div>
+            <div>
+              <a href="https://www.ebay.com/">Ebay</a>
+            </div>
+
         </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-atom fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">DIY Keyboard Construction Tutorials</h4>
-          <p class="text-muted">Tutorial on soldering, wiring, and micro-controller programming.</p>
+    </section>
+
+    <!-- Case Options -->
+      <section class="bg-light page-section" id="case">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Case Options</h2>
+                    <h3 class="section-subheading text-muted">Buy mechanical keys print files, or have us print one out for you</h3>
+                </div>
+            </div>
+            <div>
+              <a href="https://www.etsy.com/shop/MechanicalKeys">Mechanical Keys Etsy Shop</a>
+            </div>
+
+            <div class="row text-center">
+                <h4 class="service-heading">MECH-104</h4>
+            </div>
+            <p class="text-muted">Full Size 100% Keyboard</p> 
+            <img src="img\tutorial\kle_mech104.jpg">
+            <div class="row text-center">
+              <h4 class="service-heading">MECHAGODZILLA</h4>
+            </div>
+            <p class="text-muted">Keyboard Without Numpad and Function Row</p>
+            <img src="img\tutorial\kle_mechagodzilla.jpg">
+            <div class="row text-center">
+              <h4 class="service-heading">MECH-60</h4>
+            </div>
+            <p class="text-muted">60% Keyboard (Coming Soon)</p> 
+            <img src="img\tutorial\kle_mech60.jpg">
+            <div class="row text-center">
+              <h4 class="service-heading">MECK-TKL </h4>
+            </div>
+            <p class="text-muted">Keyboard without Numpad (Coming Soon)</p> 
+            <img src="img\tutorial\kle_tkl.jpg">
+            <div class="row text-center">
+              <h4 class="service-heading">MECK-40</h4>
+            </div>
+            <p class="text-muted">Tiny Form Factor Keyboard; No Numpad, Function Row or Number Row (Coming Soon)</p> 
+            <img src="img\tutorial\kle_mech40.jpg">
+            <div class="row text-center">
+              <h4 class="service-heading">MECK-66</h4>
+            </div>
+            <p class="text-muted">Based Off Clueboard 66 (Coming Soon)</p> 
+            <img src="img\tutorial\kle_mech66.jpg">
+            <div class="row text-center">
+              <h4 class="service-heading">MECK-75</h4>
+            </div>
+            <p class="text-muted">Based Off Satisfaction 75 (Coming Soon)</p> 
+            <div class="row text-center">
+              <h4 class="service-heading">LEAGUE-Board</h4>
+            </div>
+            <p class="text-muted">Half-Keyboard for Playing League of Legends (Coming Soon)</p>
+            <img src="img\tutorial\kle_league.jpg">
+            <div class="row text-center">
+              <h4 class="service-heading">MECK-Planch</h4>
+            </div>
+            <p class="text-muted">Ortholinear Board Based of Planch (Coming Soon)</p>
+            <img src="img\tutorial\kle_planch.jpg">
+            <div class="row text-center">
+              <h4 class="service-heading">MECH-Hacker</h4>
+            </div>
+            <p class="text-muted">Based off Happy Hacking Keyboard Professional 2 (HHKB) (Coming Soon)</p>
+            <img src="img\tutorial\kle_hhkb.jpg">
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">3D Printed Keyboard Cases</h4>
-          <p class="text-muted">Purchase 3D printed keyboard cases from our Etsy shop. </p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-hand-spock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Keyboard Print Files</h4>
-          <p class="text-muted">Purchase 3D printable files from our etsy shop.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Products Grid -->
   <section class="bg-light page-section" id="Products">
