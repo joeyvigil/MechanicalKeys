@@ -380,12 +380,20 @@
           </ul>
         </div>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_donations" />
-          <input type="hidden" name="business" value="QG8TK8W6QY8L8" />
-          <input type="hidden" name="currency_code" value="USD" />
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-        </form>
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <table>
+          <tr><td><input type="hidden" name="on0" value="Buy me a Pint!">Buy me a Pint!</td></tr><tr><td><select name="os0">
+            <option value="Shot">Shot $1.00 USD</option>
+            <option value="Beer">Beer $3.00 USD</option>
+            <option value="Coctail">Coctail $5.00 USD</option>
+            <option value="Bottle of Vodka">Bottle of Vodka $10.00 USD</option>
+          </select> </td></tr>
+          </table>
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+          
           
       </div>
     </div>
