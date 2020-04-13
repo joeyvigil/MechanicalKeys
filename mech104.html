@@ -8,7 +8,7 @@
   <meta name="description" content="Mech-104">
   <meta name="author" content="MechanicalKeys">
 
-  <title>Mechanical Keys Tutorial</title>
+  <title>Mech-104 Downloads</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,30 +31,6 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Typing</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#materials">Materials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#case">Case Options</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#soldering">Soldering</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#wiring">Wiring</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#teensy">Teensy Programming</a>
-          </li>
-        </ul>
-      </div>
-      
     </div>
   </nav>
 
@@ -62,272 +38,111 @@
   <header class="masthead " style="background-image: url('img/tutorial_header-bg.jpg');">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Tutorial</div>
-        <div class="intro-heading text-uppercase">Complete Guide to Building A hand soldered keyboard</div>
+        <div class="intro-lead-in">Mech-104</div>
+        <div class="intro-heading text-uppercase">Keymap, wiring, pins & hex file</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://joeyvigil.github.io/MechanicalKeys/">Home Page</a>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://joeyvigil.github.io/MechanicalKeys/tutorial">Tutorial</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://joeyvigil.github.io/MechanicalKeys/tutorial">All Keyboards</a>
       </div>
     </div>
   </header>
 
-  <!-- Materials -->
-    <section class="page-section" id="materials">
+  <!-- Full page -->
+    <section class="page-section" id="full">
         <div class="container">
+
+            <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/Title.JPG">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Materials</h2>
-                    <h3 class="section-subheading text-muted">Acquire the following:</h3>
+                <div class="col-lg-12">
+                    <h2 class="section-heading text-uppercase">Links</h2>
                 </div>
             </div>
              
             <div class="row text-center">
-                <h4 class="service-heading">1. Diodes</h4>
+                <h4 class="service-heading">Tutorial</h4>
             </div>
-            <p class="text-muted">1N4148 diodes (one for each switch)</p> 
+            <a href="https://joeyvigil.github.io/MechanicalKeys/tutorial">How to make a hand wired keyboard</a>
             <div class="row text-center">
-              <h4 class="service-heading">2. Switches</h4>
+              <h4 class="service-heading">Downloads</h4>
             </div>
-            <p class="text-muted">Many switch types available, choose based off of feel/purpose/sound</p> 
-            <a href="https://www.dygma.com/mechanical-switches/the-ultimate-guide-to-mechanical-keyboard-switches-for-2019/">Ultimate Guide to Mechanical Switches</a>
+            <a href="https://joeyvigil.github.io/MechanicalKeys/mech104">Keymap, Wiring, Pins, and Hex File</a>
             <div class="row text-center">
-              <h4 class="service-heading">3. Keycaps</h4>
+              <h4 class="service-heading">Thingiverse</h4>
             </div>
-            <p class="text-muted">Choose based off of aesthetics, make sure the set you're buying contains enough keys </p> 
-            <div class="row text-center">
-              <h4 class="service-heading">4. Stabilizers </h4>
-            </div>
-            <p class="text-muted">Costar style stabilizers.</p> 
-            <div class="row text-center">
-              <h4 class="service-heading">5. Micro-Controller</h4>
-            </div>
-            <p class="text-muted">Two types of Micro-Controllers are common; Teensy 2.0 and Teensy++ 2.0. The Teensy 2.0 will work for keyboards with less than 80 keys. The rest will require a Teensy++ 2.0.</p> 
-            <div class="row text-center">
-              <h4 class="service-heading">6. Nuts and Bolts</h4>
-            </div>
-            <p class="text-muted">All keyboards require 3M x 8mm hex screws. Amount is dependent on keyboard, but will at most be 24. </p> 
-            <div class="row text-center">
-              <h4 class="service-heading">7. Wire</h4>
-            </div>
-            <p class="text-muted">I've had the most luck only using 20-28 awg solid core wire. I use the soldering iron to remove insulation.</p> 
-            <div class="row text-center">
-              <h4 class="service-heading">8. Optional: Soldering Iron</h4>
-            </div>
-            <p class="text-muted">Quality of soldering iron does not matter, they all work well in the right hands. Just make sure it's the "pencil" style of iron, and not the "gun" style. The pencil style is for soldering electronics, the gun style is for scorching designs in wood.</p> 
-            <div class="row text-center">
-              <h4 class="service-heading">9. Optional: Solder</h4>
-            </div>
-            <p class="text-muted">60-40 rosin core solder works best</p>
-            <div class="row text-center">
-              <h4 class="service-heading">10. Optional: Solder Sucker</h4>
-            </div>
-            <p class="text-muted">Again, quality does not matter too much</p>
-            <div class="row text-center">
-              <h4 class="service-heading">Materials Can Be Purchased From the Following Sites:</h4>
-            </div>
-            <div>
-              <a href="https://www.amazon.com/">Amazon</a>
-            </div>
-            <div>
-              <a href="https://www.aliexpress.com/">AliExpress</a>
-            </div>
-            <div>
-              <a href="https://www.banggood.com/">Banggood</a>
-            </div>
-            <div>
-              <a href="https://www.ebay.com/">eBay</a>
-            </div>
+            <a href="https://www.thingiverse.com/thing:4205065">Download 3D Printable Files</a>
+            
+            <img src="img\mech104thing\keymap.JPG">
 
-        </div>
-    </section>
-
-    <!-- Case Options -->
-      <section class="bg-light page-section" id="case">
-        <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Case Options</h2>
-                    <h3 class="section-subheading text-muted">Buy mechanical keys print files, or have us print one out for you</h3>
-                </div>
-            </div>
-            <div>
-              <a href="https://www.etsy.com/shop/MechanicalKeys">Mechanical Keys Etsy Shop</a>
+              <div class="col-lg-12">
+                  <h2 class="section-heading text-uppercase">Keymap</h2>
+              </div>
             </div>
 
-            <div class="row text-center">
-                <h4 class="service-heading">MECH-104</h4>
-            </div>
-            <p class="text-muted">Full Size 100% Keyboard</p> 
-            <img src="img\tutorial\kle_mech104.jpg">
-            <div class="row text-center">
-              <h4 class="service-heading">MECHAGODZILLA</h4>
-            </div>
-            <p class="text-muted">Keyboard Without Numpad and Function Row</p>
-            <img src="img\tutorial\kle_mechagodzilla.jpg">
-            <div class="row text-center">
-              <h4 class="service-heading">MECH-60 & MECH-GH60</h4>
-            </div>
-            <p class="text-muted">60% Keyboard  and the GH60 Compatible Version (Coming Soon)</p> 
-            <img src="img\tutorial\kle_mech60.jpg">
-            <div class="row text-center">
-              <h4 class="service-heading">MECK-TKL </h4>
-            </div>
-            <p class="text-muted">Keyboard without Numpad (Coming Soon)</p> 
-            <img src="img\tutorial\kle_tkl.jpg">
-            <div class="row text-center">
-              <h4 class="service-heading">MECK-40</h4>
-            </div>
-            <p class="text-muted">Tiny Form Factor Keyboard; No Numpad, Function Row or Number Row (Coming Soon)</p> 
-            <img src="img\tutorial\kle_mech40.jpg">
-            <div class="row text-center">
-              <h4 class="service-heading">MECK-66</h4>
-            </div>
-            <p class="text-muted">Based Off Leopold FC660 (Coming Soon)</p> 
-            <img src="img\tutorial\kle_mech66.jpg">
-            <div class="row text-center">
-              <h4 class="service-heading">MECK-75</h4>
-            </div>
-            <p class="text-muted">Based Off Satisfaction 75 (Coming Soon)</p> 
-            <div class="row text-center">
-              <h4 class="service-heading">LEAGUE-Board</h4>
-            </div>
-            <p class="text-muted">Half-Keyboard for Playing League of Legends (Coming Soon)</p>
-            <img src="img\tutorial\kle_league.jpg">
-            <div class="row text-center">
-              <h4 class="service-heading">MECK-Planch</h4>
-            </div>
-            <p class="text-muted">Ortholinear Board Based off of Planch (Coming Soon)</p>
-            <img src="img\tutorial\kle_planch.jpg">
-            <div class="row text-center">
-              <h4 class="service-heading">MECH-Hacker</h4>
-            </div>
-            <p class="text-muted">Based off Happy Hacking Keyboard Professional 2 (HHKB) (Coming Soon)</p>
-            <img src="img\tutorial\kle_hhkb.jpg">
+
+<img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/keymap.JPG">
+
+<div class="row">
+  <div class="col-lg-12">
+      <h2 class="section-heading text-uppercase">Wiring</h2>
+  </div>
+</div>
+
+<img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/wiring.JPG">
+
+<div class="row">
+  <div class="col-lg-12">
+      <h2 class="section-heading text-uppercase">Pins</h2>
+  </div>
+</div>
+
+<img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/pins.JPG">
+
+<div class="row">
+  <div class="col-lg-12">
+      <h2 class="section-heading text-uppercase">Hex File</h2>
+  </div>
+</div>
+
+<a href="https://github.com/joeyvigil/MechanicalKeys/blob/master/img/mech104thing/layout.hex" download>Download Test</a>
+
+<p class="text-muted">Congrats on your new keyboard.</p> 
+
+<div class="row">
+  <div class="col-lg-12">
+      <h2 class="section-heading text-uppercase">If you print this then buy me a drink for my trouble: </h2>
+  </div>
+</div>
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<table>
+<tr><td><input type="hidden" name="on0" value="Buy me a pint!">Buy me a pint!</td></tr><tr><td><select name="os0">
+	<option value="Shot">Shot $1.00 USD</option>
+	<option value="Beer">Beer $3.00 USD</option>
+	<option value="Cocktail">Cocktail $5.00 USD</option>
+	<option value="Bottle of Vodka">Bottle of Vodka $10.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<div class="row">
+  <div class="col-lg-12">
+      <h2 class="section-heading text-uppercase">etsy shop</h2>
+  </div>
+</div>
+
+<a href="https://www.etsy.com/shop/mechanicalkeys/">Mechanical Keys etsy</a>
+
+
         </div>
     </section>
-
-  <!-- Soldering -->
-  <section class="page-section" id="soldering">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Soldering</h2>
-                <h3 class="section-subheading text-muted">Many find this step difficult, but I believe in you</h3>
-            </div>
-        </div>
-
-        <div class="row text-center">
-            <h4 class="service-heading">Quick Guide</h4>
-        </div>
-        <p class="text-muted">1. Heat up iron to 350-450 degrees</p>
-        <p class="text-muted">2. Place tip or iron so it touches both joints that need to be soldered</p>
-        <p class="text-muted">3. Press solder wire to point where iron and joints meet, solder should melt and be "magnetized" toward joints</p>
-        <p class="text-muted">4. Remove iron and solder wire, let joint harden</p>
-        <div class="row text-center">
-          <h4 class="service-heading">Video Guides</h4>
-        </div>
-        <p class="text-muted">Beginner's Guide : How to Build a 60% Mechanical Keyboard</p>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W0FSvTYlggw"></iframe>
-        </div>
-        <p class="text-muted">Hand-wired mechanical keyboard inside a 3d printed case</p>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LVzpsjFWPP4"></iframe>
-        </div>
-        
-
-    </div>
-  </section>
-
- <!-- Wiring -->
- <section class="bg-light page-section" id="wiring">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-12 text-center">
-              <h2 class="section-heading text-uppercase">Wiring</h2>
-              <h3 class="section-subheading text-muted">Rows Columns Diodes or how I learned to stop worrying and love the bomb</h3>
-          </div>
-      </div>
-
-      <div class="row text-center">
-          <h4 class="service-heading">Quick Guide</h4>
-      </div>
-      <p class="text-muted">To begin, you will need a wiring diagram, a micro-controller pin diagram, and a hex file. The following were made using Keyboard layout editor, and keyboard firmware builder. </p>
-      <div>
-      <a href="http://www.keyboard-layout-editor.com/">Keyboard Layout Editor</a>
-      </div>
-      <div>
-      <a href="https://kbfirmware.com/">Keyboard Firmware Builder</a>
-      </div>
-      <div class="row text-center">
-        <h6 class="service-heading">Keymap</h6>
-      </div>
-      <img src="img\tutorial\keymap.JPG">
-      <div class="row text-center">
-        <h6 class="service-heading">Wiring Diagram</h6>
-      </div>
-      <img src="img\tutorial\wiring.JPG">
-      <div class="row text-center">
-        <h6 class="service-heading">Pin Diagram</h6>
-      </div>
-      <img src="img\tutorial\pins.JPG">
-      <div class="row text-center">
-        <h6 class="service-heading">Rows and Columns</h6>
-      </div>
-      <p class="text-muted">Place each switch into it's hole. You will notice from the backside that each switch has two pins. Choose which one will be the row pins and which will be the column pins. Keeping this consistent will lessen the chance of making a mistake.</p>
-      <p class="text-muted">We will first solder the rows. For this we will use the diodes. The wiring diagram above shows the rows as red lines. For each switch, solder a diode to it. Solder the other end to a common wire. An example of this is shown below. (Taken from matt3o.com)</p>
-      <img src="img\tutorial\rows.jpg">
-      <p class="text-muted">Notice that each diode is painted black on one side.</p>
-      <img src="img\tutorial\diode.jpg">
-      
-      <p class="text-muted">This is because diodes only allow electricity to flow one way through it. Make sure that the painted black side is always pointed toward the common wire and not toward the switch.</p>
-      <img src="img\tutorial\rows2.JPG">
-      <p class="text-muted">Next we will wire the columns. The black lines in the wiring diagram show which switches need to be connected. Make sure that your soldering matches the diagram. An example of completed rows + columns wiring is show below.</p>
-      <img src="img\tutorial\columns.jpg">
-      <p class="text-muted">The final step in wiring is to wire each row and column to the correct pin. Below is a pin diagram for a teensy 2.0 ++. Refer to the pin diagram and the teensy diagram to wire each row & column to the corresponding teensy pin.</p>
-      <img src="img\tutorial\teensy.jpg">
-      <p class="text-muted">A fully wired keyboard</p>
-      <img src="img\tutorial\complete.jpg">
-      <p class="text-muted">A diagram for the tada-68</p>
-      <img src="img\tutorial\tada.jpg">
-    </div>
-  </section>
-
-  <!-- Teensy -->
- <section class="page-section" id="teensy">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-12 text-center">
-              <h2 class="section-heading text-uppercase">Teensy Programming</h2>
-              <h3 class="section-subheading text-muted">What is the deal with airplane peanuts?</h3>
-          </div>
-      </div>
-
-      <div class="row text-center">
-          <h4 class="service-heading">Quick Guide</h4>
-      </div>
-      <p class="text-muted">Before you begin, make sure you have a hex file that matches your keyboard type & wiring.
-        Download and install the latest version of Arduino & Teensyduino from the links below.
-      </p>
-      <div>
-      <a href="https://www.arduino.cc/en/main/software">Arduino Download Page</a>
-      </div>
-      <div>
-      <a href="https://www.pjrc.com/teensy/td_download.html">Teensyduino Download Page</a>
-      </div>
-      <p class="text-muted">Open Arduino, make sure the right port and board are selected</p>
-      <img src="img\tutorial\arduino.JPG">
-      <p class="text-muted">Verify and program a blank sketch and blink sketch to confirm the programmer is working. (Blink sketch is located under File > Examples > 01.Basics > Blink )</p>
-      <img src="img\tutorial\verify.JPG">
-      <p class="text-muted">Click the "Open HEX File" on the teensyduino window. Select your keyboard hex file and click "Open". </p>
-      <img src="img\tutorial\hex.JPG">
-      <p class="text-muted">Click the "Program" button the the teensyduino window.</p>
-      <img src="img\tutorial\program.JPG">
-      <p class="text-muted">Hex file will be uploaded to keyboard. Screw up back of Case. Congratulations, your keyboard is complete</p>
-    </div>
-  </section>
-
-
-  <!-- Clients -->
+  
+    <!-- Clients -->
   <section class="py-5">
     <div class="container">
       <div class="row">
@@ -382,25 +197,7 @@
             </li>
           </ul>
         </div>
-       
 
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <table>
-        <tr><td><input type="hidden" name="on0" value="Buy me a pint!">Buy me a pint!</td></tr><tr><td><select name="os0">
-          <option value="Shot">Shot $1.00 USD</option>
-          <option value="Beer">Beer $3.00 USD</option>
-          <option value="Cocktail">Cocktail $5.00 USD</option>
-          <option value="Bottle of Vodka">Bottle of Vodka $10.00 USD</option>
-        </select> </td></tr>
-        </table>
-        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
-        
-          
-          
       </div>
     </div>
   </footer>
