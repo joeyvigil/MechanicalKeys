@@ -27,118 +27,76 @@
 
 <body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Typing</a>
+ <!-- Navigation -->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Typing</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#materials">Materials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#case">Case Options</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#soldering">Soldering</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#wiring">Wiring</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#teensy">Teensy Programming</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+    
+  </div>
+</nav>
 
-  <!-- Header -->
-  <header class="masthead " style="background-image: url('img/tutorial_header-bg.jpg');">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Mech-104</div>
-        <div class="intro-heading text-uppercase">Keymap, wiring, pins & hex file</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://joeyvigil.github.io/MechanicalKeys/">Home Page</a>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://joeyvigil.github.io/MechanicalKeys/tutorial">Tutorial</a>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://joeyvigil.github.io/MechanicalKeys/tutorial">All Keyboards</a>
-      </div>
-    </div>
-  </header>
-
+  
   <!-- Full page -->
     <section class="page-section" id="full">
         <div class="container">
-
-            <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/Title.JPG">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="section-heading text-uppercase">Links</h2>
-                </div>
-            </div>
-             
-            <div class="row text-center">
-                <h4 class="service-heading">Tutorial</h4>
-            </div>
-            <a href="https://joeyvigil.github.io/MechanicalKeys/tutorial">How to make a hand wired keyboard</a>
-            <div class="row text-center">
-              <h4 class="service-heading">Downloads</h4>
-            </div>
-            <a href="https://joeyvigil.github.io/MechanicalKeys/mech104">Keymap, Wiring, Pins, and Hex File</a>
-            <div class="row text-center">
-              <h4 class="service-heading">Thingiverse</h4>
-            </div>
-            <a href="https://www.thingiverse.com/thing:4205065">Download 3D Printable Files</a>
-            
-            <img src="img\mech104thing\keymap.JPG">
-
-            <div class="row">
-              <div class="col-lg-12">
-                  <h2 class="section-heading text-uppercase">Keymap</h2>
-              </div>
-            </div>
-
-
-<img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/keymap.JPG">
-
-<div class="row">
-  <div class="col-lg-12">
-      <h2 class="section-heading text-uppercase">Wiring</h2>
-  </div>
-</div>
-
-<img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/wiring.JPG">
-
-<div class="row">
-  <div class="col-lg-12">
-      <h2 class="section-heading text-uppercase">Pins</h2>
-  </div>
-</div>
-
-<img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/pins.JPG">
-
-<div class="row">
-  <div class="col-lg-12">
-      <h2 class="section-heading text-uppercase">Hex File</h2>
-  </div>
-</div>
-
-<a href="img\mech104thing\layout.hex" download>Download Test</a>
-
-<p class="text-muted">Congrats on your new keyboard.</p> 
-
-<div class="row">
-  <div class="col-lg-12">
-      <h2 class="section-heading text-uppercase">If you print this then buy me a drink for my trouble: </h2>
-  </div>
-</div>
-
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<table>
-<tr><td><input type="hidden" name="on0" value="Buy me a pint!">Buy me a pint!</td></tr><tr><td><select name="os0">
-	<option value="Shot">Shot $1.00 USD</option>
-	<option value="Beer">Beer $3.00 USD</option>
-	<option value="Cocktail">Cocktail $5.00 USD</option>
-	<option value="Bottle of Vodka">Bottle of Vodka $10.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<div class="row">
-  <div class="col-lg-12">
-      <h2 class="section-heading text-uppercase">etsy shop</h2>
-  </div>
-</div>
-
-<a href="https://www.etsy.com/shop/mechanicalkeys/">Mechanical Keys etsy</a>
-
-
+          <p><img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/Title.JPG"></p>
+          <h1 id="motivation">Motivation</h1>
+          <p>A few weeks ago I got very interested in the idea of 3d printed keyboards. My brother had a broken mechanical keyboard which I de-soldered the switches from which left me only needing the diodes, Teensy 2.0, screws and keycaps. After looking through what thingiverse had to offer, I choose between the @FedorSosnin &#39;s Sick-68 and @fumbucker &#39;s Clueboard 66%. I printed and assembled both, but ultimately ended up soldering and programming the clueboard. With this knowledge I decided to make a full size keyboard with the strengths of both. The spacing measurements and overall design is taken from the sick-68, the alternating layers is taken from the clueboard.</p>
+          <h1 id="tutorial">Tutorial</h1>
+          <p>Full tutorial is available on my website:
+          <a href="https://joeyvigil.github.io/MechanicalKeys/tutorial">Mechanical Keys Tutorial</a></p>
+          <h1 id="keymap">Keymap</h1>
+          <p><img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/keymap.JPG"></p>
+          <h1 id="wiring">Wiring</h1>
+          <p><img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/wiring.JPG"></p>
+          <h1 id="pins">Pins</h1>
+          <p><img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/mech104thing/pins.JPG"></p>
+          <h1 id="hex-file">Hex File</h1>
+          <p><a href="https://github.com/joeyvigil/MechanicalKeys/blob/master/img/mech104thing/layout.hex">Hex File</a></p>
+          <p>Congrats on your new keyboard.</p>
+          <h2 id="if-you-print-this-then-buy-me-a-drink-for-my-trouble-">If you print this then buy me a drink for my trouble:</h2>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <table>
+          <tr><td><input type="hidden" name="on0" value="Buy me a pint!">Buy me a pint!</td></tr><tr><td><select name="os0">
+              <option value="Shot">Shot $1.00 USD</option>
+              <option value="Beer">Beer $3.00 USD</option>
+              <option value="Cocktail">Cocktail $5.00 USD</option>
+              <option value="Bottle of Vodka">Bottle of Vodka $10.00 USD</option>
+          </select> </td></tr>
+          </table>
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIICQYJKoZIhvcNAQcEoIIH+jCCB/YCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYArCG0AIX9YYtjTiwtkpKvIBj/ksPClWmBWOmDsUq8AfD9kW0h9dUD1WoFT11LgNco9IZA9jyz6Lnh1Lc/6fqZEtmZJtT/Als+Hh+7FDOJ8E4JRMmxSiCxWpvj/NOtn+UGiFc74sIO2NbXqND8G81onGVkQtwIvlJvQiXARteRfojELMAkGBSsOAwIaBQAwggGFBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECLKJaYYcXxKRgIIBYOhoYOhjNpgMIdMfKx8Np+SgPdCa088wi5ckFLM3laHQhec9RjB7s8YLf9AgEyJWZaDUqDjAq0bEeXFW6Ivs8yWc9MNS3qdzn0ffoXvR8FsbuZhpBZnAD+HY0+VQh4F8t+M5rTuqPmIaxqOQ2lmMKB23e1oeFyVkfm1YBZHqmVyhwW/SnLkGq3/74sIWhODZ55tR+SgIthThmJMRixq/TE9LOPDEuJ++k5LzFB3kmO+GnwPnf+Z4veSrgOqQ9vE2VlW0uoV5YSX85g88s8zLBfsuMVKZqmjxImzKWNjLNzsCSCLkq+2fztfyocOJqcGB+0l0SAIa1UcsKS5orZ+dkVpVFuyqs6/aKeuO2hHN7avCf98c1op1AJB7O7gAZWBTgl3g8Bb5IDbV03msnTup0tMUMNEVcNBMk0jpM4V2D0VdW21xHbMf6GHmLav18upyrYYBQamxu3iJgm5mQxG7OzmgggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yMDAzMDcxMTU3MzFaMCMGCSqGSIb3DQEJBDEWBBQgU9ZsConPg8K58VVkK86tnuE0VTANBgkqhkiG9w0BAQEFAASBgDCP3bT+mVTYkgjNpNpG/UrAz9ldnlqMR52HzxvbO7XzF/tNyVjSHAD5YfPOVGE9m8RnwmazmX6xINdhnQCjM2k/K3eAPANVMTQKOsDWE53xp+QoNoAn/4UDkFLtA+CT+SrCdjztPtlM/OHne6RMlkuNjDAKTNPtiyNNnktiyR2Y-----END PKCS7-----">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+          
+          <h1 id="etsy-shop">etsy shop</h1>
+          <p>mechanicalkeys.etsy.com
+          <a href="https://www.etsy.com/shop/mechanicalkeys/">Mechanical Keys etsy</a></p>
+          
         </div>
     </section>
   
